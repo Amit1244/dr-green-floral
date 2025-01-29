@@ -48,7 +48,7 @@ export default function ShopStrainsClient(props) {
         <div>
             {/* <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6"> */}
             <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6">
-                {strains.map((strain, i) => (
+                {strains && strains?.length > 0 && strains.map((strain, i) => (
                     <div
                         key={i}
                         className="rounded-[10px]  border-2 border-[#EBCFA6] backdrop-blur-[44px] p-6"
