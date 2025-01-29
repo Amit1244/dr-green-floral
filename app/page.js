@@ -183,7 +183,7 @@ export default async function Home() {
 
     return (
         <main>
-            <section id="hero" className="bg-center flex  items-center  relative h-[50vh] md:min-h-screen overflow-hidden ">
+            <section id="hero" className="bg-center flex items-center relative h-[50vh] md:min-h-screen">
                 {/* <Image
                     src={content.pageContent.heroPlanet.node.sourceUrl}
                     alt={content.pageContent.heroPlanet.node.title}
@@ -215,7 +215,7 @@ export default async function Home() {
                                 </button>
                             </Link>
                         </div> */}
-                        <p className="hidden lg:flex justify-center items-center gap-4 animate-bounce text-lg font-semibold relative z-10 pt-60">
+                        <p className="flex justify-center items-center gap-4 animate-bounce text-lg font-semibold relative z-10 pt-7 md:pt-60">
                             <Image
                                 src="/images/icons/mouse-icon.svg"
                                 alt="Mouse Icon"
@@ -243,7 +243,7 @@ export default async function Home() {
                     width={735}
                     height={910}
                 />
-                <div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 md:translate-x-0 md:translate-y-0 md:right-0  hidden md:block top-1/2   md:top-[70%] 2xl:top-[30%] md:max-w-[40%] max-h-full  object-fit w-auto h-auto object-left z-[-10] pointer-events-none">
+                <div className="absolute hidden md:block right-0 top-[40%] md:top-[20%] w-fit-content ml-auto pointer-events-none max-w-[100%] sm:max-w-[70%] lg:max-w-[60%] xl:max-w-[50%] overflow-hidden">
                     <img
                         src={
                             content.pageContent.heroCelebrityPhoto.node
@@ -259,7 +259,7 @@ export default async function Home() {
                                 .mediaDetails.height
                         }
                         // priority
-                        className="object-contain object-right-bottom md:ml-[25%]"
+                        className="object-contain  object-right-bottom ml-[25%]"
                     />
                 </div>
             </section>
