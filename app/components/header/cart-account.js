@@ -156,7 +156,7 @@ export default function CartAccount(props) {
             <nav className="flex justify-end items-center gap-10">
                 <Link
                     href="/login"
-                    className="flex text-[#EBCFA6]  items-center gap-2 relative"
+                    className="flex text-[#EBCFA6]  items-center gap-2 font-manrope relative"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
