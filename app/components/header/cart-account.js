@@ -49,7 +49,7 @@ export default function CartAccount(props) {
                             strokeMiterlimit="10"
                         />
                     </svg>
-                    <span className="hidden md:inline text-[#EBCFA6]">Cart</span>
+                    <span className="hidden md:inline text-[#EBCFA6] font-manrope">Cart</span>
                 </Link>
                 <div
                     title="Dashboard"
@@ -79,7 +79,7 @@ export default function CartAccount(props) {
                             strokeLinejoin="round"
                         />
                     </svg>
-                    <span className="hidden md:inline text-[#EBCFA6]">Dashboard</span>
+                    <span className="hidden md:inline text-[#EBCFA6] font-manrope">Dashboard</span>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="15"
@@ -104,7 +104,7 @@ export default function CartAccount(props) {
                     >
                         <div
                             onMouseOver={() => MenuHandler(true)}
-                            className={`justify-end text-end flex flex-col items-end gap-2 p-4 rounded-[10px]  border-2 border-[#EBCFA6] backdrop-blur-[44px] cursor-auto whitespace-nowrap`}
+                            className={`justify-end text-end flex flex-col font-manrope items-end gap-2 p-4 rounded-[10px]  border-2 border-[#EBCFA6] backdrop-blur-[44px] cursor-auto whitespace-nowrap`}
                         >
                             <Link href="/dashboard" className="block md:hidden text-[#EBCFA6]">
                                 Dashboard

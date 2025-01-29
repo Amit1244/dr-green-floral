@@ -26,7 +26,7 @@ export default function SingleAccordion(props) {
     return (
         <div className="each-accordion w-full text-left mb-4 border-2 border-[#25685B] rounded-[40px] bg-transparent">
             <button
-                className="w-full text-left text-[#EBCFA6] text-lg font-sans  font-normal py-6 px-6 sm:px-12 flex justify-between items-center gap-4 rounded-[40px]"
+                className="w-full text-left text-[#EBCFA6] text-lg font-montserrat  font-normal py-6 px-6 sm:px-12 flex justify-between items-center gap-4 rounded-[40px]"
                 onClick={(e) => {
                     toggleAccordion(e.target.closest(".each-accordion"));
                 }}

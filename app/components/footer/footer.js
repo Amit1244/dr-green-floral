@@ -172,7 +172,7 @@ export default async function Footer() {
                     <div className="flex flex-col sm:flex-row justify-start items-start gap-16">
                         {/* Support Section */}
                         <div>
-                            <p className="opacity-50 text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
+                            <p className="text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
                                 Support
                             </p>
                             <div className="flex flex-col gap-y-4">
@@ -193,7 +193,7 @@ export default async function Footer() {
 
                         {/* Quick Links Section */}
                         <div>
-                            <p className="opacity-50 text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
+                            <p className="text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
                                 Quick Links
                             </p>
                             <div className="flex flex-col gap-y-4">
@@ -226,7 +226,7 @@ export default async function Footer() {
 
                         {/* Legal Section */}
                         <div>
-                            <p className="opacity-50 text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
+                            <p className="text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
                                 Legal
                             </p>
                             <div className="flex flex-col gap-y-4">
@@ -257,7 +257,7 @@ export default async function Footer() {
                         <p className=" text-[22px] font-medium text-[#EBCFA6] tracking-wider mb-4">
                             Join the community
                         </p>
-                        <p className="text-base text-[#EBCFA6] mb-2">
+                        <p className="text-base text-[#EBCFA6] mb-2 font-montserrat">
                             Register your details today to ensure you&apos;re
                             among the chosen few who get to witness the dawn of
                             a new era in Cannabis Delivery. Your Digital Key
@@ -270,17 +270,17 @@ export default async function Footer() {
                                 id="email"
                                 type="text"
                                 placeholder="Email Address"
-                                className="p-3 flex-grow rounded-[7px] bg-[#EBCFA6] border-[#EBCFA6] text-black outline-0"
+                                className="p-3 flex-grow rounded-[7px] font-montserrat  bg-[#EBCFA6] border-[#EBCFA6] text-black outline-0"
                             />
                             <button
-                                className="uppercase py-4 p-3 px-6 mt-2 md:mt-0 rounded-[7px] bg-[#0aba90] text-[#EBCFA6] border border-[#0aba90] text-[15px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
+                                className="uppercase py-4 p-3 px-6 mt-2 md:mt-0 font-montserrat rounded-[7px] bg-[#0aba90] text-[#EBCFA6] border border-[#0aba90] text-[15px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
                                 title="Check Eligibility"
                             >
                                 Submit
                             </button>
                         </div>
 
-                        <p className="text-[13px] text-[#EBCFA6] tracking-tight">
+                        <p className="text-[13px] text-[#EBCFA6] tracking-tight font-montserrat">
                             Your data will be used to process your submission,
                             support your experience throughout this website, and
                             for other purposes described in our{" "}
@@ -289,11 +289,11 @@ export default async function Footer() {
                     </div>
                 </div>
                 <div className="mt-16 sm:mt-20 flex justify-between">
-                    <p className="text-xs font-bold text-[#EBCFA6] ">
+                    <p className="text-xs font-bold text-[#EBCFA6] font-unbounded">
                         2024 &copy; DR GREEN NFT
                     </p>
                     <Link
-                        className="text-xs font-bold text-[#EBCFA6] "
+                        className="text-xs font-bold text-[#EBCFA6] font-unbounded"
                         href="/"
                         target="_blank"
                         rel="noreferrer"

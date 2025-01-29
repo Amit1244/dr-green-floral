@@ -72,7 +72,7 @@ export default function ShopStrainsClient(props) {
                                 className="object-fit object-center"
                             />
                         </div>
-                        <p className="text-2xl md:text-[28px] font-semibold mb-6">
+                        <p className="text-2xl md:text-[28px] font-medium mb-6 text-[#EBCFA6]">
                             {strain.name}
                         </p>
                         <Link href={`/product/${strain.id}`}>

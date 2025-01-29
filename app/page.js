@@ -215,7 +215,7 @@ export default async function Home() {
                                 </button>
                             </Link>
                         </div> */}
-                        <p className="flex justify-center items-center gap-4 animate-bounce text-lg font-semibold relative z-10 pt-7 md:pt-60">
+                        <p className="flex justify-center font-cerapro font-medium text-[#EBCFA6] items-center gap-4 animate-bounce text-lg  relative z-10 pt-7 md:pt-60">
                             <Image
                                 src="/images/icons/mouse-icon.svg"
                                 alt="Mouse Icon"
@@ -223,7 +223,7 @@ export default async function Home() {
                                 height={19}
                                 priority
                             />
-                            Scroll to Discover
+                            scroll to discover
                         </p>
                     </div>
                 </div>
@@ -352,8 +352,6 @@ export default async function Home() {
                 )
             }
 
-
-
             <div className="relative flex justify-center px-10">
                 <section className="relative  overflow-hidden  text-white mt-16 py-32 rounded-lg container mx-auto lg:w-[80%] ">
                     <div className="absolute bg-[#134E42] bg-opacity-90  w-full h-full inset-0"></div>
@@ -366,7 +364,7 @@ export default async function Home() {
                     ></video>
                     {/* Content */}
                     <div className="relative flex flex-col  items-center text-center z-10">
-                        <p className="text-sm uppercase tracking-wide text-[#57837A] font-bold mb-2">
+                        <p className="text-sm uppercase tracking-wide text-[#57837A] font-medium mb-2 font-cerapro">
                             Need a Prescription?
                         </p>
                         <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-[#EBCFA6] font-medium mb-6 leading-tight">
@@ -383,7 +381,7 @@ export default async function Home() {
                 {/* White flower image */}
                 <Image
                     className="absolute  right-0 top-1/2 object-contain drop-shadow-xl shadow-primary -z-10 pointer-events-none"
-                    src="/images/general/white-flower.png"
+                    src="/images/general/whiteFlower.svg"
                     alt="White Flower"
                     width={735}
                     height={910}
@@ -459,13 +457,13 @@ export default async function Home() {
                         }
                     />
                 </div> */}
-                < div className="container mx-auto lg:w-[80%]  px-10 " >
+                < div className="container mx-auto lg:w-[80%] px-10 " >
                     <div className="text-center text-[#EBCFA6]">
-                        <h2>Blue Dream <br />from {content.title}</h2>
+                        <h2 className="font-medium">Blue Dream <br />from {content.title}</h2>
                     </div>
                     <div className="relative mx-auto sm:max-w-[80%] md:max-w-full backdrop-blur-[10px] rounded-[10px] border-4 border-[#EBCFA6] p-8 sm:p-16 mt-8 sm:mt-16 grid md:grid-cols-2 gap-8 sm:gap-16 items-center">
                         <button
-                            className="uppercase absolute -top-6 right-5 text-black py-4 px-6 rounded-full bg-[#EBCFA6] text-[15px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
+                            className="uppercase absolute -top-6 right-5 text-black py-4 px-6 rounded-full bg-[#EBCFA6] font-gebuk font-medium text-[15px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
                             title="Eligible Conditions"
                         >
                             EXCLUSIVE FROM FREDO
@@ -482,21 +480,21 @@ export default async function Home() {
                             />
                         </div>
                         <div>
-                            <p className="text-3xl font-semibold text-[#EBCFA6]">
+                            <p className="text-3xl font-semibold text-[#EBCFA6] font-cerapro">
                                 {strain.data.name}
                             </p>
                             <hr className="h-[2px] border-none bg-[#0aba90] my-10" />
-                            <p className="text-xl mb-4 text-[#EBCFA6]">
-                                <span className="font-bold">FEELINGS: </span>
-                                {strain.data.feelings}
+                            <p className="text-xl mb-4 text-[#EBCFA6] font-cerapro">
+                                <span className="font-bold ">FEELINGS: </span>
+                                <span className="font-serif">{strain.data.feelings}</span>
                             </p>
-                            <p className="text-xl mb-4 text-[#EBCFA6]">
+                            <p className="text-xl mb-4 text-[#EBCFA6] font-cerapro">
                                 <span className="font-bold">HELPS WITH: </span>
-                                {strain.data.helpsWith}
+                                <span className="font-serif">{strain.data.helpsWith}</span>
                             </p>
-                            <p className="text-xl mb-16 text-[#EBCFA6]">
+                            <p className="text-xl mb-16 text-[#EBCFA6] font-cerapro">
                                 <span className="font-bold">FLAVOURS: </span>
-                                {strain.data.flavour}
+                                <span className="font-serif">{strain.data.flavour}</span>
                             </p>
                             <Link href="#eligibile-conditions">
                                 <button
@@ -524,7 +522,7 @@ export default async function Home() {
                         <TextHightlight
                             text={
                                 <p
-                                    className="text-4xl sm:text-5xl lg:text-[47px] font-bold leading-tight"
+                                    className="text-4xl sm:text-5xl lg:text-[47px] font-medium leading-tight"
                                     dangerouslySetInnerHTML={{
                                         __html: content.pageContent
                                             .largeParagraphText,
@@ -565,7 +563,7 @@ export default async function Home() {
                     <img className="w-[200px] md:w-auto  h-[100px]" src="/images/email/dr-green.png" alt="" />
                 </div>
                 <p
-                    className="text-[22px] font-light max-w-[750px] text-[#EBCFA6] mb-8"
+                    className="text-[22px] font-light max-w-[750px] text-[#EBCFA6] mb-8 font-montserrat"
                     dangerouslySetInnerHTML={{
                         __html: content.pageContent
                             .madePossibleParagraphText,
@@ -573,7 +571,7 @@ export default async function Home() {
                 />
                 <Link href="https://drgreennft.com/" target="_blank">
                     <button
-                        className="uppercase py-4 px-6 rounded-full bg-[#25685B] border-[#25685B] text-[#EBCFA6] border-2 text-[15px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
+                        className="font-cerapro tracking-wider font-[500] uppercase py-4 px-6 rounded-full bg-[#25685B] border-[#25685B] text-[#EBCFA6] border-2 text-[15px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
                         title="Learn More"
                     >
                         Learn More
@@ -654,7 +652,7 @@ export default async function Home() {
                             <h2 className="text-5xl sm:text-[74px] xl:text-[140px] text-[#EBCFA6] font-semibold">
                                 Questions?
                             </h2>
-                            <p className="text-2xl pt-3 text-[#EBCFA6] sm:text-3xl xl:text-52px font-semibold">
+                            <p className="text-2xl font-fontspring pt-3 text-[#EBCFA6] sm:text-3xl xl:text-52px font-semibold">
                                 We&apos;ve got answers...
                             </p>
                         </div>
@@ -667,12 +665,12 @@ export default async function Home() {
                 <div className="container mx-auto px-4">
                     <div>
                         <div className=" text-center">
-                            <p className="text-3xl font-semibold mb-4 text-[#EBCFA6]">
+                            <p className="text-3xl font-cerapro font-semibold mb-4 text-[#EBCFA6]">
                                 Something else on your mind? 🧐
                             </p>
                             <Link href="mailto:support@drgreennft.com">
                                 <button
-                                    className="uppercase py-4 px-6 rounded-full bg-[#25685B] border-[#25685B] text-[#EBCFA6] border-2 text-[15px] shadow hover:shadow-[0_0_15px_0px_#0ABA90] duration-200 ease-in-out"
+                                    className="uppercase py-4 px-6 font-cerapro font-medium rounded-full bg-[#25685B] border-[#25685B] text-[#EBCFA6] border-2 text-[15px] shadow hover:shadow-[0_0_15px_0px_#0ABA90] duration-200 ease-in-out"
                                     title="Reach Out"
                                 >
                                     Reach Out

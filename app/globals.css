@@ -11,6 +11,47 @@
 }
 
 
+@font-face {
+    font-family: 'Gebuk';
+    src: url('/fonts/gebuk-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cerapro';
+    src: url('/fonts/Fontspring-DEMO-cerapro-bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Light-300.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fontspring';
+    src: url('/fonts/Fontspring-DEMO-cerapro-thin.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/fonts/Unbounded-Bold.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('/fonts/manrope-bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
 
 body {
     color: white;

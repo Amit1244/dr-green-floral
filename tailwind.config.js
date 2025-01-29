@@ -11,8 +11,13 @@ module.exports = {
                 primary: "#071E19"
             },
             fontFamily: {
-                // montserrat: ["var(--font-montserrat)"],
+                montserrat: ['Montserrat', 'sans-serif'],
+                unbounded: ['Unbounded', 'sans-serif'],
+                manrope: ['Manrope', 'sans-serif'],
+                fontspring: ['Fontspring', 'sans-serif'],
                 swear: ['Swear', 'sans-serif'],
+                gebuk: ['Gebuk', 'sans-serif'],
+                cerapro: ['Cerapro', 'sans-serif'],
             },
             keyframes: {
                 wiggle: {
