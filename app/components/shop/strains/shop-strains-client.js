@@ -46,7 +46,8 @@ export default function ShopStrainsClient(props) {
 
     return (
         <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+            {/* <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6"> */}
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6">
                 {strains.map((strain, i) => (
                     <div
                         key={i}
