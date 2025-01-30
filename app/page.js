@@ -357,7 +357,7 @@ export default async function Home() {
 
             <div className="relative flex justify-center px-10">
                 <section className="relative  overflow-hidden  text-white mt-16 py-32 rounded-lg container mx-auto lg:w-[80%] ">
-                    <div className="absolute bg-[#134E42] bg-opacity-90  w-full h-full inset-0"></div>
+                    <div className="absolute bg-[#134E42]   w-full h-full inset-0"></div>
                     <video
                         className="absolute mix-blend-screen  -right-36 h-full  z-10 object-cover rounded-2xl"
                         src="/videos/green-flower.mp4"
@@ -383,8 +383,8 @@ export default async function Home() {
 
                 {/* White flower image */}
                 <Image
-                    className="absolute  right-0 top-1/2 object-contain drop-shadow-xl shadow-primary -z-10 pointer-events-none"
-                    src="/images/general/whiteFlower.svg"
+                    className="absolute  right-0 top-[70%] 2xl:top-1/2 object-contain drop-shadow-xl shadow-primary -z-10 pointer-events-none max-w-[30%] 2xl:max-w-[50%]"
+                    src="/images/general/white-flower.png"
                     alt="White Flower"
                     width={735}
                     height={910}
@@ -427,7 +427,7 @@ export default async function Home() {
                 </div>
             </section> */}
 
-            < section className="mt-10 lg:mt-40 py-10 sm:py-16 relative" >
+            < section className="mt-10 2xl:mt-40 py-10 sm:py-16 relative" >
                 {/* <div className="absolute top-0 left-0 w-full h-full z-[-10] pointer-events-none mask-top-bottom mix-blend-screen">
                     <LowPowerModeVideo
                         image={
