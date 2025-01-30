@@ -197,11 +197,14 @@ export default async function Home() {
                     className="absolute top-[-25px] sm:top-0 left-0 max-w-[50%] sm:max-w-[25%]"
                 /> */}
                 <div className="container mx-auto px-4 ">
+                    <div className="flex items-center justify-end container mx-auto 2xl:max-w-[calc(100%_-_5rem)]">
+                        <h1 className="text-end text-xl md:text-[26px] text-[#EBCFA6] font-swear font-medium">from Fredo</h1>
+                    </div>
                     <div className="text-center">
-                        <h1 className="text-[60px] font-swear text-[#EBCFA6] sm:text-[80px] md:text-[90px] lg:text-[120px] 2xl:text-[140px] mb-4 sm:mb-6 relative z-10">
+                        <h1 className="text-[60px] font-swear text-[#EBCFA6] font-[500] sm:text-[80px] md:text-[90px] lg:text-[120px] 2xl:text-[140px] mb-4 sm:mb-6 relative z-10">
                             Welcome to <br />
                             <span className="text-[#EBCFA6]">
-                                {/*  {content.title} */} Goldilocks
+                                {content.title} {/* Goldilocks */}
                             </span>
 
                         </h1>
@@ -335,7 +338,7 @@ export default async function Home() {
                     <>
                         <section id="shop-by-strain" className="relative">
                             <div className="container mx-auto px-4 xl:px-40">
-                                <h2 className="mb-8 text-[#EBCFA6]">
+                                <h2 className="mb-8 text-[#EBCFA6] font-swear font-[500]">
                                     Shop <br />
                                     <span className="text-[#C41242]">by strain</span>
                                 </h2>
@@ -364,14 +367,14 @@ export default async function Home() {
                     ></video>
                     {/* Content */}
                     <div className="relative flex flex-col  items-center text-center z-10">
-                        <p className="text-sm uppercase tracking-wide text-[#57837A] font-medium mb-2 font-cerapro">
+                        <p className="uppercase tracking-wide text-[#57837A] font-medium mb-2 text-[22px] font-cerapro">
                             Need a Prescription?
                         </p>
                         <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-[#EBCFA6] font-medium mb-6 leading-tight">
                             Refer to your doctor
                         </h2>
                         <Link href="/dashboard/eligibility">
-                            <button className="text-[#EBCFA6] border font-sans uppercase border-[#EBCFA6] py-4 px-8 font-medium rounded-full hover:bg-[#EBCFA6] hover:text-[#134E42] transition duration-300">
+                            <button className="text-[#EBCFA6] text-[22px] border font-cerapro  uppercase border-[#EBCFA6] py-4 px-8 font-medium rounded-full hover:bg-[#EBCFA6] hover:text-[#134E42] transition duration-300">
                                 Refer Now
                             </button>
                         </Link>
@@ -459,7 +462,7 @@ export default async function Home() {
                 </div> */}
                 < div className="container mx-auto lg:w-[80%] px-10 " >
                     <div className="text-center text-[#EBCFA6]">
-                        <h2 className="font-medium">Blue Dream <br />from {content.title}</h2>
+                        <h2 className="font-medium font-swear text-[74px]">Blue Dream <br />from {content.title}</h2>
                     </div>
                     <div className="relative mx-auto sm:max-w-[80%] md:max-w-full backdrop-blur-[10px] rounded-[10px] border-4 border-[#EBCFA6] p-8 sm:p-16 mt-8 sm:mt-16 grid md:grid-cols-2 gap-8 sm:gap-16 items-center">
                         <button
@@ -486,19 +489,19 @@ export default async function Home() {
                             <hr className="h-[2px] border-none bg-[#0aba90] my-10" />
                             <p className="text-xl mb-4 text-[#EBCFA6] font-cerapro">
                                 <span className="font-bold ">FEELINGS: </span>
-                                <span className="font-serif">{strain.data.feelings}</span>
+                                <span className="font-cerapro text-[20px]">{strain.data.feelings}</span>
                             </p>
                             <p className="text-xl mb-4 text-[#EBCFA6] font-cerapro">
                                 <span className="font-bold">HELPS WITH: </span>
-                                <span className="font-serif">{strain.data.helpsWith}</span>
+                                <span className="font-cerapro text-[20px]">{strain.data.helpsWith}</span>
                             </p>
                             <p className="text-xl mb-16 text-[#EBCFA6] font-cerapro">
                                 <span className="font-bold">FLAVOURS: </span>
-                                <span className="font-serif">{strain.data.flavour}</span>
+                                <span className="font-cerapro text-[20px]">{strain.data.flavour}</span>
                             </p>
                             <Link href="#eligibile-conditions">
                                 <button
-                                    className="uppercase py-4 px-6 rounded-full bg-[#C41242] border-[#C41242] border-2 text-[15px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
+                                    className="uppercase py-4 px-6 font-cerapro tracking-wide rounded-full bg-[#C41242] border-[#C41242] border-2 text-[22px] text-[#EBCFA6] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
                                     title="Eligible Conditions"
                                 >
                                     Eligible Conditions
@@ -522,7 +525,7 @@ export default async function Home() {
                         <TextHightlight
                             text={
                                 <p
-                                    className="text-4xl sm:text-5xl lg:text-[47px] font-medium leading-tight"
+                                    className="text-4xl sm:text-5xl lg:text-[46px] font-medium leading-tight font-swear"
                                     dangerouslySetInnerHTML={{
                                         __html: content.pageContent
                                             .largeParagraphText,
@@ -555,15 +558,15 @@ export default async function Home() {
 
 
             <div className="mx-auto container lg:w-[80%] px-10">
-                <h2 className="text-4xl sm:text-[50px] text-[#EBCFA6] font-semibold mb-6">
+                <h2 className="text-[140px] sm:text-[50px] text-[#EBCFA6] font-medium font-swear mb-6">
                     Made possible <br />
                 </h2>
                 <div className="flex items-center -mt-6">
-                    <div className="text-center text-[#EBCFA6] mt-0 text-[40px]">with</div>
+                    <div className="text-center text-[#EBCFA6] font-swear  font-medium mt-0 text-[40px]">with</div>
                     <img className="w-[200px] md:w-auto  h-[100px]" src="/images/email/dr-green.png" alt="" />
                 </div>
                 <p
-                    className="text-[22px] font-light max-w-[750px] text-[#EBCFA6] mb-8 font-montserrat"
+                    className="text-[26px] font-light max-w-[750px] text-[#EBCFA6] mb-8 font-montserrat"
                     dangerouslySetInnerHTML={{
                         __html: content.pageContent
                             .madePossibleParagraphText,
@@ -571,7 +574,7 @@ export default async function Home() {
                 />
                 <Link href="https://drgreennft.com/" target="_blank">
                     <button
-                        className="font-cerapro tracking-wider font-[500] uppercase py-4 px-6 rounded-full bg-[#25685B] border-[#25685B] text-[#EBCFA6] border-2 text-[15px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
+                        className="font-cerapro tracking-wider font-[500] uppercase py-4 px-6 rounded-full bg-[#25685B] border-[#25685B] text-[#EBCFA6] border-2 text-[22px] shadow hover:shadow-[0_0_15px_0px_#0aba90] duration-200 ease-in-out"
                         title="Learn More"
                     >
                         Learn More
@@ -595,7 +598,17 @@ export default async function Home() {
                     // src="/images/general/made.gif"
                     src={content.pageContent.heroCelebrityPhoto.node
                         .sourceUrl}
-                    alt="Shadow"
+                    // width={
+                    //     content.pageContent.heroCelebrityPhoto.node
+                    //         .mediaDetails.width
+                    // }
+                    // height={
+                    //     content.pageContent.heroCelebrityPhoto.node
+                    //         .mediaDetails.height
+                    // }
+                    width={900}
+                    height={900}
+                    alt={content.pageContent.heroCelebrityPhoto.node.title}
                     className="absolute top-[10%] 2xl:top-[20%] right-0 aspect-auto"
                 />
 
@@ -649,10 +662,10 @@ export default async function Home() {
                 <div className="container mx-auto px-4">
                     <div>
                         <div className="text-center mb-5 md:mb-20">
-                            <h2 className="text-5xl sm:text-[74px] xl:text-[140px] text-[#EBCFA6] font-semibold">
+                            <h2 className="text-5xl sm:text-[74px] xl:text-[140px] text-[#EBCFA6] font-swear font-medium">
                                 Questions?
                             </h2>
-                            <p className="text-2xl font-fontspring pt-3 text-[#EBCFA6] sm:text-3xl xl:text-52px font-semibold">
+                            <p className="text-2xl font-cerapro pt-3 text-[#EBCFA6] sm:text-3xl xl:text-52px font-[300]">
                                 We&apos;ve got answers...
                             </p>
                         </div>
@@ -665,12 +678,12 @@ export default async function Home() {
                 <div className="container mx-auto px-4">
                     <div>
                         <div className=" text-center">
-                            <p className="text-3xl font-cerapro font-semibold mb-4 text-[#EBCFA6]">
+                            <p className="text-3xl font-cerapro font-[700] mb-4 text-[#EBCFA6]">
                                 Something else on your mind? 🧐
                             </p>
                             <Link href="mailto:support@drgreennft.com">
                                 <button
-                                    className="uppercase py-4 px-6 font-cerapro font-medium rounded-full bg-[#25685B] border-[#25685B] text-[#EBCFA6] border-2 text-[15px] shadow hover:shadow-[0_0_15px_0px_#0ABA90] duration-200 ease-in-out"
+                                    className="uppercase py-4 px-6 font-cerapro font-medium rounded-full bg-[#25685B] border-[#25685B] text-[#EBCFA6] border-2 text-[22px] shadow hover:shadow-[0_0_15px_0px_#EBCFA6] duration-200 ease-in-out"
                                     title="Reach Out"
                                 >
                                     Reach Out

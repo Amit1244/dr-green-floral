@@ -172,19 +172,19 @@ export default async function Footer() {
                     <div className="flex flex-col sm:flex-row justify-start items-start gap-16">
                         {/* Support Section */}
                         <div>
-                            <p className="text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
+                            <p className="text-[29px] text-[#EBCFA6] font-swear font-medium tracking-wider mb-4">
                                 Support
                             </p>
                             <div className="flex flex-col gap-y-4">
                                 <Link
                                     href="/"
-                                    className="text-base text-[#EBCFA6] font-medium font-montserrat"
+                                    className="text-base text-[#EBCFA6] text-[16px] font-[400] font-montserrat"
                                 >
                                     Contact
                                 </Link>
                                 <Link
                                     href="/"
-                                    className="text-base text-[#EBCFA6] font-medium font-montserrat"
+                                    className="text-base text-[#EBCFA6] text-[16px] font-[400] font-montserrat"
                                 >
                                     FAQs
                                 </Link>
@@ -193,31 +193,31 @@ export default async function Footer() {
 
                         {/* Quick Links Section */}
                         <div>
-                            <p className="text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
+                            <p className="text-[29px]  text-[#EBCFA6] font-swear font-medium tracking-wider mb-4">
                                 Quick Links
                             </p>
                             <div className="flex flex-col gap-y-4">
                                 <Link
                                     href="https://drgreennft.com/"
-                                    className="text-base font-medium text-[#EBCFA6] font-montserrat"
+                                    className="text-base text-[16px] font-[400] text-[#EBCFA6] font-montserrat"
                                 >
                                     About Us
                                 </Link>
                                 <Link
                                     href="/#process"
-                                    className="text-base font-medium text-[#EBCFA6] font-montserrat"
+                                    className="text-base text-[16px] font-[400] text-[#EBCFA6] font-montserrat"
                                 >
                                     The Process
                                 </Link>
                                 <Link
                                     href="#news"
-                                    className="text-base font-medium text-[#EBCFA6] font-montserrat"
+                                    className="text-base text-[16px] font-[400] text-[#EBCFA6] font-montserrat"
                                 >
                                     News
                                 </Link>
                                 <Link
                                     href="mailto:support@drgreennft.com"
-                                    className="text-base font-medium text-[#EBCFA6] font-montserrat"
+                                    className="text-base text-[16px] font-[400] text-[#EBCFA6] font-montserrat"
                                 >
                                     Contact
                                 </Link>
@@ -226,25 +226,25 @@ export default async function Footer() {
 
                         {/* Legal Section */}
                         <div>
-                            <p className="text-[19px] text-[#EBCFA6] font-semibold tracking-wider mb-4">
+                            <p className="text-[29px]  text-[#EBCFA6] font-medium tracking-wider mb-4">
                                 Legal
                             </p>
                             <div className="flex flex-col gap-y-4">
                                 <Link
                                     href="/"
-                                    className="text-base font-medium text-[#EBCFA6] font-montserrat"
+                                    className="text-base text-[16px] font-[400] text-[#EBCFA6] font-montserrat"
                                 >
                                     Terms
                                 </Link>
                                 <Link
                                     href="/"
-                                    className="text-base font-medium text-[#EBCFA6] font-montserrat"
+                                    className="text-base text-[16px] font-[400] text-[#EBCFA6] font-montserrat"
                                 >
                                     Privacy
                                 </Link>
                                 <Link
                                     href="/"
-                                    className="text-base font-medium text-[#EBCFA6] font-montserrat"
+                                    className="text-base text-[16px] font-[400] text-[#EBCFA6] font-montserrat"
                                 >
                                     Cookies
                                 </Link>
@@ -254,10 +254,10 @@ export default async function Footer() {
 
 
                     <div>
-                        <p className=" text-[22px] font-medium text-[#EBCFA6] tracking-wider mb-4">
+                        <p className="text-[29px] font-medium font-swear text-[#EBCFA6] tracking-wider mb-4">
                             Join the community
                         </p>
-                        <p className="text-base text-[#EBCFA6] mb-2 font-montserrat">
+                        <p className="text-base text-[#EBCFA6] mb-2 font-[400] font-montserrat">
                             Register your details today to ensure you&apos;re
                             among the chosen few who get to witness the dawn of
                             a new era in Cannabis Delivery. Your Digital Key
@@ -280,7 +280,7 @@ export default async function Footer() {
                             </button>
                         </div>
 
-                        <p className="text-[13px] text-[#EBCFA6] tracking-tight font-montserrat">
+                        <p className="text-[13px] text-[#EBCFA6] font-[300] tracking-tight font-montserrat">
                             Your data will be used to process your submission,
                             support your experience throughout this website, and
                             for other purposes described in our{" "}
